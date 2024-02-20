@@ -1,0 +1,358 @@
+header{
+    width: 100%;
+    
+    background-size: cover;
+    font-family: sans-serif;
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    border: 2px solid transparent;
+    text-align: center;
+    margin-bottom: 35px;
+    padding-top: 60px;
+    font-size: 25px;
+}
+h6{
+    font-size: larger;
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: overline
+}
+h2{
+    text-align: center;
+    border: transparent;
+    margin-top: 80px;
+}
+h8{
+    font-size: 35px;
+    font-weight: bold;
+}
+h9{
+    font-size: larger;
+    font-weight: bold;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+.topnav a{
+text-decoration: none;
+color: brown;
+padding: 10px 20px;
+font-size: 18px;
+position: relative;
+}
+.contact a{
+text-decoration: none;
+color: brown;
+padding: 10px 20px;
+font-size: 18px;
+background: rgb(239, 232, 245);
+border-radius: 8px;
+transition: 0.4s;
+}
+.contact a:hover{
+    background: transparent;
+    border: 1px solid black;
+}
+.topnav a:before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 0%;
+height: 100%;
+border-bottom: 2px solid black;
+transition: 0.4s linear;
+}
+.topnav a:hover:before{
+    width: 90%;
+}
+.backgroundimg{
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    position: relative;
+    background: linear-gradient(pink);
+}
+
+.loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    
+}
+.forms{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgb(150, 92, 92);
+    backdrop-filter: blur(10px);
+    color: black;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 25%;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+h7{
+    color: rgb(134, 26, 26);
+    text-align: center;
+    border: transparent;
+    padding-left: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+}
+.input-box input{
+    width: 98.3%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid brown;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 21px;
+    font-size: 18px;
+}
+.rem-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 15px;
+}
+.rem-forgot label input{
+    accent-color: black;
+    margin-right: 4px;
+}
+.rem-forgot a{
+    color: black;
+    text-decoration: none;
+}
+.rem-forgot a:hover{
+text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    background: rgb(241, 200, 200);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(100, 90, 90);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.register-link{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px 0 50px;
+}
+.register-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    transition: 0.4s linear;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    border: none;
+    
+}
+.img{
+    width: 450px;
+    height: 485px;
+    
+    
+}
+.img2{
+    width: 469px;
+    height: 485px;
+    margin-left: 0%;
+}
+.img3{
+    width: 500px;
+    height: 550px;
+}
+.img4{
+    width: 350px;
+    height: 450px;
+}
+.img5{
+    width: 355px;
+    height: 450px;
+}
+.img6{
+    width: 350px;
+    height: 450px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.about{
+    display: flex;
+    height: 80vh;
+    
+    padding-top: 30px;
+}
+#about-text{
+    width: 70%;
+    margin-right: 50px;
+    text-align: left;
+}
+#about-heading {
+    padding-top: 30px;
+}
+
+.founder{
+    display: flex;
+    height: 40vh;
+}
+#founder-text{
+    width: 68%;
+    border: transparent;
+    padding-top: 70px;
+    
+}
+
+.foot{
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 100%;
+    
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    padding: 30px 0;
+    margin-top: 10px;
+    background-color: rgb(247, 225, 228);
+    
+}
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    color: black;
+    background-color: rgb(173, 123, 123);
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: brown;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    
+}
+.footer-col ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: brown;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease ;
+}
+.footer-col ul li a:hover{
+    color: black;
+    padding-left: 10px;
+}
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(173, 138, 138);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: brown;
+    transition: all 0.3s ease;
+}
+.social-links a:hover{
+    color: black;
+    background-color: brown;
+}
+/*responsive*/
+@media (max-width:767px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:574px) {
+    .footer-col{
+        width: 100%;
+        
+    }
+}
+.outlets{
+    display: flex;
+    margin-left: 63px;
+    border: 1px solid brown;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.popular{
+    margin-right: 8px;
+}
